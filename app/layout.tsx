@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: 'Restauracja Stary Dom — Kuchnia polska w najlepszym wydaniu',
   description:
     'Restauracja Stary Dom w Warszawie. Tradycyjna kuchnia polska oparta na najlepszych regionalnych produktach. Rezerwacje: +48 22 646 42 08.',
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/logo.jpg',
+  },
 };
 
 export default function RootLayout({
