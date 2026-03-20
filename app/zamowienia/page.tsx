@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Zamówienia online — Restauracja Stary Dom',
@@ -18,7 +19,7 @@ export default function ZamowieniaPage() {
             <span>Wróć do strony</span>
           </Link>
           <div className="order-header__brand">
-            <span className="order-header__icon">&#9753;</span>
+            <Image src="/logo.jpg" alt="Stary Dom" width={36} height={36} style={{ borderRadius: 4 }} />
             <span className="order-header__name">Stary Dom</span>
           </div>
           <div className="order-header__info">Zamówienia online</div>

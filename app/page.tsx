@@ -215,7 +215,7 @@ export default function Home() {
             {/* Kolumna 1 — Marka */}
             <div className="footer__col">
               <div className="footer__brand">
-                <span className="footer__brand-icon">&#9753;</span>
+                <Image src="/logo.jpg" alt="Stary Dom" width={44} height={44} className="footer__logo-img" />
                 <span className="footer__name">Stary Dom</span>
               </div>
               <p className="footer__desc">Tradycyjna kuchnia polska w sercu Mokotowa. Od lat 50. ubiegłego stulecia serwujemy potrawy oparte na najlepszych regionalnych produktach.</p>

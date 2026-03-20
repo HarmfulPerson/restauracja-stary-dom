@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ReservationForm } from './ReservationForm';
 
 export const metadata: Metadata = {
@@ -22,7 +23,7 @@ export default function RezerwacjaPage() {
             <span>Powrót</span>
           </Link>
           <div className="rez__brand">
-            <span className="rez__brand-icon">&#9753;</span>
+            <Image src="/logo.jpg" alt="Stary Dom" width={36} height={36} className="rez__brand-img" />
             <span className="rez__brand-name">Stary Dom</span>
           </div>
           <div />

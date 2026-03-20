@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,7 +27,7 @@ export function Navigation() {
     <header className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
       <div className="nav__inner">
         <a href="#" className="nav__logo" aria-label="Strona główna">
-          <span className="nav__logo-icon">&#9753;</span>
+          <Image src="/logo.jpg" alt="Stary Dom" width={40} height={40} className="nav__logo-img" />
           <span className="nav__logo-text">Stary Dom</span>
         </a>
 
