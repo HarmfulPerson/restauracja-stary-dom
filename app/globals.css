@@ -208,8 +208,10 @@ ul { list-style: none; }
   display: flex; align-items: center; justify-content: space-between;
   position: relative; z-index: 1001;
 }
-.nav__logo { display: flex; align-items: center; gap: var(--s-2); text-decoration: none; color: var(--brand-100); transition: color var(--dur-fast) var(--ease); }
+.nav__logo { display: flex; align-items: center; gap: var(--s-2); text-decoration: none; color: var(--brand-100); }
+.nav__logo:hover { color: var(--brand-100); }
 .nav--scrolled .nav__logo { color: var(--brand-900); }
+.nav--scrolled .nav__logo:hover { color: var(--brand-900); }
 .nav__logo-img {
   width: 42px; height: 42px; border-radius: 50%; object-fit: cover;
   box-shadow: 0 4px 12px rgba(20,31,16,0.25), 0 1px 3px rgba(20,31,16,0.15);
